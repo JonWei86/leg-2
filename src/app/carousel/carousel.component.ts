@@ -1,0 +1,24 @@
+import { Component, OnInit} from '@angular/core';
+
+@Component({
+  selector: 'app-carousel',
+  templateUrl: './carousel.component.html',
+  styleUrls: ['./carousel.component.css']
+})
+export class CarouselComponent implements OnInit {
+slides: any[] = new Array(3).fill({id: -1, src: '', title: '', subtitle: ''});
+
+  constructor() { }
+
+  ngOnInit(): void {
+    this.slides[0] = {
+      src: './assets/img/2018-02-17.jpg',
+    };
+    this.slides[1] = {
+      src: './assets/img/2023-05-11.jpg',
+    }
+    this.slides[2] = {
+      src: './assets/img/20181506_234000.jpg',
+    }
+}
+}

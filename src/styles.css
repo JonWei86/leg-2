@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    scroll-behavior: smooth;
+}

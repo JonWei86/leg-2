@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    border-color: white;
+    border-top: 0.25rem solid;
+    background-color: #B30000;
+}
+
+.icon{
+    padding:0.5rem;
+}

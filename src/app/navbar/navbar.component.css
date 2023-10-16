@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #B30000;
+    border-color: white;
+    border-bottom: 0.25rem solid;
+    width:100%;
+}
+
+a:hover{
+    cursor:pointer;
+    font-size: 1.15rem;
+}
+
+.sticky{
+    position:fixed;
+    top:0;
+    overflow:hidden;
+    z-index:10;
+    width: 75%;
+}
