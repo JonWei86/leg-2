@@ -1,11 +1,24 @@
-.container{
-    display: flex;
-    justify-content: space-evenly;
-    border-color: white;
-    border-top: 0.25rem solid;
-    background-color: #B30000;
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  border-color: white;
+  border-top: 0.25rem solid;
+  background-color: #b30000;
 }
 
-.icon{
-    padding:0.5rem;
+.icon {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: large;
+}
+
+p {
+  font-size: small;
+}
+
+.maps-container {
+  margin: 0.5rem;
 }
