@@ -1,5 +1,12 @@
 <div id="container">
   <h1>GALLERY</h1>
-  <img src="../assets/img/20181206_234000.jpg" />
-  <img src="../assets/img/2018-02-17.jpg" />
+  <img src="{{ slides[counter].src }}" width="250px" height="250px" />
+  <button (click)="onClickMinus()"><</button>
+  <button (click)="onClickPlus()">></button>
+  <ul>
+    <li *ngFor="let slide of slides">
+      <img src="{{ slide.src }}" />
+    </li>
+    >
+  </ul>
 </div>
